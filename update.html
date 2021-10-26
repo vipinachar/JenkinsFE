@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update </title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script type="text/javascript" src="update.js"></script>
+        <script type = "text/javascript">  
+            
+            window.onload = function(){
+               // alert("Heyyy")
+                var url = document.location.href,
+        params = url.split('?')[1].split('&'),
+        data = {}, tmp;
+    for (var i = 0, l = params.length; i < l; i++) {
+         tmp = params[i].split('=');
+         data[tmp[0]] = tmp[1];
+    }
+    
+    
+    mailid= data.ls.replace(/%40/, "@");
+    document.getElementById("email").value=mailid
+
+    var xhr = new XMLHttpRequest();
+  URL="http://150.136.209.237:8000/update/"+mailid+"/"
+  xhr.open("GET", URL );
+  xhr.setRequestHeader("Accept", "application/json");
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.send();
+  xhr.onload = function() {
+			
+      if (this.readyState == 4 && this.status==201)
+      {
+            //alert(this.responseText)
+            var Name_of_the_user = JSON.parse(this.responseText)
+            var namee = Name_of_the_user.name
+            var passwordd = Name_of_the_user.password
+            //<!-- alert(Name_of_the_user.name) -->
+            //alert(passwordd)
+            document.getElementById("name").value=namee
+            document.getElementById("pass").value=passwordd
+            document.getElementById("pass2").value=passwordd
+           
+      }
+      else if(this.readyState == 4 && this.status==400)
+      {
+          
+         alert(this.responseText.replace(/['"]+/g, ''));
+          }
+     }
+    
+
+    }
+
+        </script>
+    </head>
+    <body>
+        
+        <form method="post" target="_blank" onsubmit="return validate()">
+        <h1 id ="h1">Update your account details. </h1>
+        
+        Email<br>
+        <input type="text" id ="email" name="email"><br>
+        
+      	Name<br>
+      	<input type="text" id="name" name="name"><br>
+       
+        Create a password<br>
+	<input type="password" id="pass" name="password"><input type="checkbox" onclick="myFunction()">Show Password
+    <br>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("pass");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+        </script>
+        Retype password<br>
+	<input type="password" id="pass2" name="retype_password"><input type="checkbox" onclick="myFunction2()">Show Password
+    <script>
+        function myFunction2() {
+          var y = document.getElementById("pass2");
+          if (y.type === "password") {
+            y.type = "text";
+          } else {
+            y.type = "password";
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+          }
+        }
+        </script>
+        <br>
+        
+            
+      	<div class="button">
+          <input type="submit" class="button" value="Update">
+        </div>
+        
+	</form>
+</body>
+</html>

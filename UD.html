@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Manage User Accounts </title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script type="text/javascript" src="UD.js"></script>
+        <script>
+                document.addEventListener('keydown', function(event)
+                {
+                  var code = event.keyCode || event.which;
+                  if (code === 9) {  
+                    e=valueOf("email")
+                    if (e.indexOf('@') == -1) 
+                    {
+                        str=("Please enter a valid Email address.");
+                        alert(str.replace(/['"]+/g, ''))
+                       // <!-- window.location.reload() -->
+                     }
+
+                    var xhr = new XMLHttpRequest();
+                    URL="http://150.136.209.237:8000/update/"+e+"/"
+                    xhr.open("GET", URL );
+                    xhr.setRequestHeader("Accept", "application/json");
+                    xhr.setRequestHeader("Content-Type", "application/json");
+                    xhr.send();
+                    xhr.onload = function() {
+			
+                        if (this.readyState == 4 && this.status==201)
+                        {
+                              
+                        }
+                        else if(this.readyState == 4 && this.status==400)
+                        {
+                            
+                            alert(this.responseText.replace(/['"]+/g, ''));
+                        }
+                        }
+                    
+                  }
+                });
+        </script>
+    </head>
+    <body>
+        
+        <form method="post" target="_blank" >
+        <h1>Manage User Accounts</h1>
+
+        <br>
+        <br>
+       Enter your Email address:<br>
+       <!-- <select name="email_addresses" id="email_addresses">
+            <script>
+                var xhr = new XMLHttpRequest();
+		        xhr.open("GET", "http://127.0.0.1:8000/api/v1/users/");
+		        xhr.setRequestHeader("Accept", "application/json");
+		        xhr.setRequestHeader("Content-Type", "application/json");
+		        xhr.send();
+		        xhr.onload = function() {
+			
+			if (this.readyState == 4 && this.status==201)
+			{
+				
+                var dict = JSON.parse(this.responseText)
+                var select = document.getElementById("email_addresses"); 
+                var el = document.createElement("option");
+                el.text = '';
+                el.value = '';
+                select.add(el);
+                for (var user of dict)
+                {
+                    var el = document.createElement("option");
+                    el.text = user.email;
+                    el.value = user.email;
+                
+                    select.add(el);
+                }
+			}
+			else if(this.readyState == 4 && this.status==400)
+			{
+				
+				alert(this.responseText);
+			}
+			}
+            </script>
+        </select> -->
+	 <input type="text" name="email" ><br> 
+     <br>
+     <br>
+     <br>     
+    <div>
+        <button onclick="UpdateData()" name = "update" style='margin-left:20px'>Update</button>         <button style='margin-left:105px'  type="button" onclick="ClearData()" name="delete">Delete</button>  <button style='margin-left:130px' onclick="GetData()" name="Retrieve">List Users</button>
+    </div>
+          
+	</form>
+</body>
+</html>

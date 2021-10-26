@@ -1,0 +1,379 @@
+[oracle@omcscabhvagrzq MAIN]$ cd objects/;ls
+DBCompileutility_objects_20210817_02-08-00.000_PMFCUBS144.log    SEQUENCE_20210817_02-08-02.002_PMscript.txt
+DBCompileutility_objects_20210817_02-08-00.000_PMFCUBS144.log.1  SEQUENCE_20210817_12-16-20.020_PMscript.txt
+DBCompileutility_objects_20210817_02-08-00.000_PMFCUBS144.log.2  SEQUENCE_20210817_12-56-37.037_PMscript.txt
+DBCompileutility_objects_20210817_02-08-00.000_PMFCUBS144.log.3  SEQUENCE_20210824_01-52-06.006_PMscript.txt
+DBCompileutility_objects_20210817_02-08-00.000_PMFCUBS144.log.4  SEQUENCE_20210824_12-40-04.004_PMscript.txt
+DBCompileutility_objects_20210817_12-16-18.018_PMFCUBS144.log    SEQUENCE_20210825_06-08-13.013_AMscript.txt
+DBCompileutility_objects_20210817_12-16-18.018_PMFCUBS144.log.1  SEQUENCE_20210825_07-26-14.014_AMscript.txt
+DBCompileutility_objects_20210817_12-16-18.018_PMFCUBS144.log.2  SEQUENCE_20210825_07-40-01.001_AMscript.txt
+DBCompileutility_objects_20210817_12-16-18.018_PMFCUBS144.log.3  SPC_20210817_02-08-03.003_PMscript.txt
+DBCompileutility_objects_20210817_12-16-18.018_PMFCUBS144.log.4  SPC_20210817_12-16-21.021_PMscript.txt
+DBCompileutility_objects_20210817_12-56-35.035_PMFCUBS144.log    SPC_20210817_12-56-39.039_PMscript.txt
+DBCompileutility_objects_20210817_12-56-35.035_PMFCUBS144.log.1  SPC_20210824_01-52-08.008_PMscript.txt
+DBCompileutility_objects_20210817_12-56-35.035_PMFCUBS144.log.2  SPC_20210824_12-40-06.006_PMscript.txt
+DBCompileutility_objects_20210817_12-56-35.035_PMFCUBS144.log.3  SPC_20210825_06-08-15.015_AMscript.txt
+DBCompileutility_objects_20210817_12-56-35.035_PMFCUBS144.log.4  SPC_20210825_07-26-16.016_AMscript.txt
+DBCompileutility_objects_20210824_01-52-04.004_PMFCUBS144.log    SPC_20210825_07-40-02.002_AMscript.txt
+DBCompileutility_objects_20210824_01-52-04.004_PMFCUBS144.log.1  SQL_20210817_02-08-07.007_PMscript.txt
+DBCompileutility_objects_20210824_01-52-04.004_PMFCUBS144.log.2  SQL_20210817_12-16-24.024_PMscript.txt
+DBCompileutility_objects_20210824_01-52-04.004_PMFCUBS144.log.3  SQL_20210817_12-56-42.042_PMscript.txt
+DBCompileutility_objects_20210824_01-52-04.004_PMFCUBS144.log.4  SQL_20210824_01-52-11.011_PMscript.txt
+DBCompileutility_objects_20210824_12-40-02.002_PMFCUBS144.log    SQL_20210824_12-40-09.009_PMscript.txt
+DBCompileutility_objects_20210824_12-40-02.002_PMFCUBS144.log.1  SQL_20210825_06-08-18.018_AMscript.txt
+DBCompileutility_objects_20210824_12-40-02.002_PMFCUBS144.log.2  SQL_20210825_07-26-19.019_AMscript.txt
+DBCompileutility_objects_20210824_12-40-02.002_PMFCUBS144.log.3  SQL_20210825_07-40-06.006_AMscript.txt
+DBCompileutility_objects_20210824_12-40-02.002_PMFCUBS144.log.4  VW_20210817_02-08-05.005_PMscript.txt
+DBCompileutility_objects_20210825_06-08-11.011_AMFCUBS144.log    VW_20210817_02-08-10.010_PMscript.txt
+DBCompileutility_objects_20210825_06-08-11.011_AMFCUBS144.log.1  VW_20210817_12-16-23.023_PMscript.txt
+DBCompileutility_objects_20210825_06-08-11.011_AMFCUBS144.log.2  VW_20210817_12-16-27.027_PMscript.txt
+DBCompileutility_objects_20210825_06-08-11.011_AMFCUBS144.log.3  VW_20210817_12-56-40.040_PMscript.txt
+DBCompileutility_objects_20210825_06-08-11.011_AMFCUBS144.log.4  VW_20210817_12-56-45.045_PMscript.txt
+DBCompileutility_objects_20210825_07-26-11.011_AMFCUBS144.log    VW_20210824_01-52-09.009_PMscript.txt
+DBCompileutility_objects_20210825_07-26-11.011_AMFCUBS144.log.1  VW_20210824_01-52-14.014_PMscript.txt
+DBCompileutility_objects_20210825_07-26-11.011_AMFCUBS144.log.2  VW_20210824_12-40-07.007_PMscript.txt
+DBCompileutility_objects_20210825_07-26-11.011_AMFCUBS144.log.3  VW_20210824_12-40-12.012_PMscript.txt
+DBCompileutility_objects_20210825_07-26-11.011_AMFCUBS144.log.4  VW_20210825_06-08-16.016_AMscript.txt
+DBCompileutility_objects_20210825_07-39-58.058_AMFCUBS144.log    VW_20210825_06-08-21.021_AMscript.txt
+DBCompileutility_objects_20210825_07-39-58.058_AMFCUBS144.log.1  VW_20210825_07-26-17.017_AMscript.txt
+DBCompileutility_objects_20210825_07-39-58.058_AMFCUBS144.log.2  VW_20210825_07-26-22.022_AMscript.txt
+DBCompileutility_objects_20210825_07-39-58.058_AMFCUBS144.log.3  VW_20210825_07-40-04.004_AMscript.txt
+DBCompileutility_objects_20210825_07-39-58.058_AMFCUBS144.log.4  VW_20210825_07-40-09.009_AMscript.txt
+[oracle@omcscabhvagrzq objects]$ tail -n 10 DBCompileutility_objects_20210825_07-39-58.058_AMFCUBS144.log.4
+[oracle@omcscabhvagrzq objects]$ tail -n 10 VW_20210825_07-40-09.009_AMscript.txt
+prompt loading "/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/SMS/MAIN/VW/ssvw_bpel_users.vw"
+SET DEFINE OFF
+@"/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/SMS/MAIN/VW/ssvw_bpel_users.vw"
+SELECT SYSTIMESTAMP from dual;
+prompt loading "/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/SMS/MAIN/VW/stvw_sstb_user.vw"
+SET DEFINE OFF
+@"/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/SMS/MAIN/VW/stvw_sstb_user.vw"
+COMMIT;
+SET ERRORLOGGING OFF
+EXIT[oracle@omcscabhvagrzq objects]$ pwd
+/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/SMS/MAIN/objects
+[oracle@omcscabhvagrzq objects]$ cd ../../../..
+[oracle@omcscabhvagrzq SOFT]$ ls
+config                           GWMDBEarCreation.jar         ROFCDBCompileRun.sh                ROFCGatewayEarCreation.jar
+COREGatewayEarCreation.jar       GWMDBEarRun.bat              ROFCDBCompileRun.sh_17Aug          ROFCGatewayEarRun.bat
+COREGatewayEarRun.bat            GWMDBEarRun.sh               ROFCEarClusterCreation.jar         ROFCGatewayEarRun.sh
+COREGatewayEarRun.sh             Library                      ROFCEarCreation.jar                ROFCGatewayRestEarCreation.jar
+GatewayEarReCompileRun.bat       logs                         ROFCEarRun.bat                     ROFCGatewayRestEarRun.bat
+GatewayEarReCompileRun.sh        ODTDBCompileRun.bat          ROFCEarRunCluster.bat              ROFCGatewayRestEarRun.sh
+GatewayReCompileEarCreation.jar  ODTDBCompileRun.sh           ROFCEarRunCluster.sh               ROFCOFSAADBCompile.jar
+GatewayRestReCompile.jar         ODTExecDBCompile.jar         ROFCEarRun.sh                      ROFCOFSAADBCompileRun.bat
+GatewayRestReCompileRun.bat      ODTWarCreation.jar           ROFCExecBranchDBCompile.jar        ROFCOFSAADBCompileRun.sh
+GatewayRestReCompileRun.sh       ODTWarRun.bat                ROFCExecDBCompileCluster.jar       SchedulerEarCreation.jar
+GUI                              ODTWarRun.sh                 ROFCExecDBCompile.jar              SchedulerEarRun.bat
+GWEJBEarCreation.jar             ON.lst                       ROFCFISReportingDBCompile.jar      SchedulerEarRun.sh
+GWEJBEarRun.bat                  ROFCBranchDBCompileRun.bat   ROFCFISReportingDBCompileRun.bat   SMSDBCompileRun.bat
+GWEJBEarRun.sh                   ROFCBranchDBCompileRun.sh    ROFCFISReportingDBCompileRun.sh    SMSDBCompileRun.sh
+GWHTTPEarCreation.jar            ROFCDBCompileClusterRun.bat  ROFCGatewayEarClusterCreation.jar  SMSDBCompileRun.sh_bkp
+GWHTTPEarRun.bat                 ROFCDBCompileClusterRun.sh   ROFCGatewayEarClusterRun.bat       SMSExecDBCompile.jar
+GWHTTPEarRun.sh                  ROFCDBCompileRun.bat         ROFCGatewayEarClusterRun.sh
+[oracle@omcscabhvagrzq SOFT]$ ./ROFCDBCompileRun.sh
+shell script
+calling exit
+in beginning
+.
+Flex Cube UBS : Release 12.4.0.0.0 - Production on  
+.
+Copyright (c) 2016, Oracle Financial Services Software Ltd. All rights reserved.
+.
+FLEXCUBE INSTALLER running in *** EXEC *** mode
+.
+.
+.
+.
+Environment Variables have been set previously.
+.
+.
+JAVA_HOME = /u01/fcubs/local/jdk
+.
+APPSERVER_HOME = /u01/fcubs/local/mwh/12214/wlserver
+.
+ORACLE_HOME = /u01/fcubs/local/oracle/product/19300
+.
+----------------------------------------------------
+Running in Silent Mode
+Class:com.ofss.genericsoftinstaller.common.InitInstaller-->getInstance()
+Class:com.ofss.installer.utility.ProcessInstaller;-->loadProperties-->/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/env.properties
+Class:com.ofss.installer.utility.ProcessInstaller;-->loadProperties-->/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/FCHome.ini
+Class:com.ofss.installer.utility.ProcessInstaller;-->loadProperties-->/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/FCHome.ini
+Class:com.ofss.installer.GenericSoftInstaller-->GenericSoftInstaller-->Installer Started>>>>>>
+Class:com.ofss.installer.GenericSoftInstaller-->GenericSoftInstaller-->JAVA_HOME = /u01/fcubs/local/jdk
+Class:com.ofss.installer.GenericSoftInstaller-->GenericSoftInstaller-->APPSERVER_HOME = /u01/fcubs/local/mwh/12214/wlserver
+Class:com.ofss.installer.GenericSoftInstaller-->GenericSoftInstaller-->ORACLE_HOME = /u01/fcubs/local/oracle/product/19300
+Class:com.ofss.installer.GenericSoftInstaller-->GenericSoftInstaller-->WEBLOGIC_HOME = /u01/fcubs/local/mwh/12214/wlserver
+Class:com.ofss.installer.GenericSoftInstaller-->GenericSoftInstaller-->FLEXCUBE_HOME = null
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->testConnection()-->Validating the values
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Validating Tnsping..
+ConnectSatus is true
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility.getInvalidList-->java.sql.SQLRecoverableException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:854)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.ofss.genericsoftinstaller.execution.DBCompileutility.getInvalidList(DBCompileutility.java:153)
+	at com.ofss.genericsoftinstaller.rofc.ROFC_ExecDBCompile.main(ROFC_ExecDBCompile.java:76)
+Caused by: oracle.net.ns.NetException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+	at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:284)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:340)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1596)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:588)
+	... 8 more
+
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/MAIN/UPGRADE/TABLE
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/MAIN/UPGRADE/INC
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/MAIN/UPGRADE/PostConversion
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Common/pr_instlr_pre_import.prc
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Common/pr_instlr_pre_import.prc
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//ddl/TABLE_20210825_07-46-56.056_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//ddl/TABLE_20210825_07-46-56.056_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/TYPE_20210825_07-47-23.023_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/TYPE_20210825_07-47-23.023_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SEQUENCE_20210825_07-47-25.025_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SEQUENCE_20210825_07-47-25.025_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/FNC_20210825_07-47-26.026_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/FNC_20210825_07-47-26.026_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/PRC_20210825_07-47-28.028_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/PRC_20210825_07-47-28.028_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-4 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SPC132script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-6 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SPC264script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-8 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SPC395script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SPC132_20210825_07-47-30.030_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SPC264_20210825_07-47-30.030_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SPC395_20210825_07-47-30.030_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/VW_20210825_07-47-40.040_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/VW_20210825_07-47-40.040_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-10 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SQL132script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-12 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SQL264script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-14 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SQL394script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SQL132_20210825_07-47-42.042_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SQL264_20210825_07-47-42.042_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/SQL394_20210825_07-47-42.042_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/TRG_20210825_07-48-36.036_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/TRG_20210825_07-48-36.036_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/JAVA_20210825_07-48-38.038_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/JAVA_20210825_07-48-38.038_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/VW_20210825_07-48-39.039_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/VW_20210825_07-48-39.039_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Common/pr_instlr_pre_import.prc
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Common/pr_instlr_pre_import.prc
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/TRG_20210825_07-48-42.042_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//objects/TRG_20210825_07-48-42.042_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Common/pr_instlr_pre_import.prc
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Common/pr_instlr_pre_import.prc
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-16 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//inc/INC310script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-18 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//inc/INC620script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-20 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//inc/INC929script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//inc/INC929_20210825_07-48-46.046_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//inc/INC620_20210825_07-48-46.046_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/MAIN//inc/INC310_20210825_07-48-46.046_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/ROFC/MAIN/UPGRADE/TABLE
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/ROFC/MAIN/UPGRADE/INC
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SEQUENCE_20210825_08-13-01.001_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SEQUENCE_20210825_08-13-01.001_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/TYPE_20210825_08-13-04.004_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/TYPE_20210825_08-13-04.004_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/TPS_20210825_08-13-05.005_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/TPS_20210825_08-13-05.005_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//ddl/TABLE_20210825_08-13-07.007_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//ddl/TABLE_20210825_08-13-07.007_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-22 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/FNC70script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-24 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/FNC140script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/FNC140_20210825_08-17-04.004_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/FNC70_20210825_08-17-04.004_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-26 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/PRC71script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-28 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/PRC142script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/PRC142_20210825_08-17-07.007_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/PRC71_20210825_08-17-07.007_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-30 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC790script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-32 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC1580script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-34 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC2370script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-36 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC3160script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-38 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC3950script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-40 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC4740script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-42 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC5530script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-44 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC6320script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-46 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC7110script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-48 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC7891script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC3950_20210825_08-17-13.013_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC7891_20210825_08-17-14.014_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC2370_20210825_08-17-13.013_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC4740_20210825_08-17-13.013_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC790_20210825_08-17-13.013_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC3160_20210825_08-17-13.013_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC6320_20210825_08-17-14.014_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC7110_20210825_08-17-14.014_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC5530_20210825_08-17-13.013_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SPC1580_20210825_08-17-13.013_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/VW_20210825_08-20-33.033_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/VW_20210825_08-20-33.033_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-50 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL785script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-52 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL1570script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-54 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL2355script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-56 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL3140script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-58 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL3925script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-60 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL4710script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-62 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL5495script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-64 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL6280script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-66 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL7065script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-68 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL7845script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL7845_20210825_08-21-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL6280_20210825_08-21-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL3140_20210825_08-21-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL4710_20210825_08-21-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL3925_20210825_08-21-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL2355_20210825_08-21-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL785_20210825_08-21-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL5495_20210825_08-21-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL1570_20210825_08-21-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/SQL7065_20210825_08-21-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/TRG_20210825_08-50-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/TRG_20210825_08-50-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/VW_20210825_08-51-04.004_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/VW_20210825_08-51-04.004_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/TRG_20210825_08-51-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//objects/TRG_20210825_08-51-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-70 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC343script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-72 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC686script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-74 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC1029script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-76 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC1372script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-78 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC1715script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-80 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC2058script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-82 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC2401script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-84 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC2744script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-86 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC3087script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-88 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC3426script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC3426_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC2744_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC343_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC3087_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC686_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC1372_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC2401_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC2058_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC1715_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/MAIN//inc/INC1029_20210825_08-52-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/ROFC/MAIN/UPGRADE/PostConversion
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/BPEL/OR/UPGRADE/TABLE
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/BPEL/OR/UPGRADE/INC
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//ddl/TABLE_20210825_09-58-27.027_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//ddl/TABLE_20210825_09-58-27.027_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SEQUENCE_20210825_09-58-38.038_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SEQUENCE_20210825_09-58-38.038_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-90 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SPC48script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-92 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SPC95script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SPC48_20210825_09-58-40.040_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SPC95_20210825_09-58-40.040_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/VW_20210825_09-58-45.045_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/VW_20210825_09-58-45.045_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-94 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SQL48script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-96 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SQL95script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SQL95_20210825_09-58-46.046_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/SQL48_20210825_09-58-46.046_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/VW_20210825_09-59-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//objects/VW_20210825_09-59-15.015_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//inc/INC_20210825_09-59-17.017_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/BPEL/OR//inc/INC_20210825_09-59-17.017_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/BPEL/OR/UPGRADE/PostConversion
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/ROFC/OR/UPGRADE/TABLE
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/ROFC/OR/UPGRADE/INC
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/ROFC/OR/SEQUENCE
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//ddl/TABLE_20210825_09-59-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//ddl/TABLE_20210825_09-59-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/FNC_20210825_10-00-29.029_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/FNC_20210825_10-00-29.029_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/PRC_20210825_10-00-31.031_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/PRC_20210825_10-00-31.031_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-98 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC78script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-100 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC156script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-102 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC234script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-104 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC312script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-106 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC389script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC389_20210825_10-00-32.032_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC234_20210825_10-00-32.032_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC78_20210825_10-00-32.032_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC156_20210825_10-00-32.032_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SPC312_20210825_10-00-32.032_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/VW_20210825_10-00-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/VW_20210825_10-00-50.050_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-108 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL78script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-110 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL156script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-112 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL234script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-114 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL312script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Submitting Thread Thread-116 with File /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL389script.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL78_20210825_10-00-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL389_20210825_10-00-52.052_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL156_20210825_10-00-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL234_20210825_10-00-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileUtilityWorkerThread-->compilation success/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/SQL312_20210825_10-00-51.051_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/TRG_20210825_10-06-44.044_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/TRG_20210825_10-06-44.044_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/VW_20210825_10-06-46.046_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/VW_20210825_10-06-46.046_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/TRG_20210825_10-06-47.047_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//objects/TRG_20210825_10-06-47.047_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//inc/INC_20210825_10-06-49.049_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/logs/ROFC/OR//inc/INC_20210825_10-06-49.049_AMscript.txt
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Compiling is successfull
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->FolderPath does not exists/u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/ROFC/OR/UPGRADE/PostConversion
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Scheduler/tables_oracle.sql
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Scheduler/tables_oracle.sql
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Common/pr_instlr_post_import.prc
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/Common/pr_instlr_post_import.prc
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Executing /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/recomp.sql
+Class:com.ofss.genericsoftinstaller.execution.DBCompileutility-->Finished : /u01/fcubs/local/FCUBS_14.4/FCUBS_14.4.0.0.0/INSTALLER/SOFT/config/Database/recomp.sql
+in exit
+Deleting the Flag file ROFCDBCompileRunChk.flg.
+Reading env.properties to fetch and set the previously set environment variables

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Account Information</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    </head>
+    <body>
+        
+        <script>
+		var xhr = new XMLHttpRequest();
+		xhr.open("GET", "http://150.136.209.237:8000/list/");
+		xhr.setRequestHeader("Accept", "application/json");
+		xhr.setRequestHeader("Content-Type", "application/json");
+		xhr.send();
+		xhr.onload = function() {
+			
+			if (this.readyState == 4 && this.status==201)
+			{
+				document.write("<h2>List of all users</h2>");
+                var dict = JSON.parse(this.responseText)
+                if(dict.length==0){
+                    document.write("<h3>No users found.</h3>")
+
+                }else{
+                document.write("<ul>")
+                for (var user of dict) 
+                {
+                    document.write("<li>")
+                    document.write("<h3>Name : "+user.name+"</h3>");
+                    document.write("<h3>Email : "+user.email+"</h3>"); 
+                    document.write("</li>")
+                }
+                document.write("</ul>")
+            }
+                
+				
+			}
+			else if(this.readyState == 4 && this.status==400)
+			{
+				
+				alert(this.responseText.replace(/['"]+/g, ''));
+			}
+			}
+        </script>
+    </body>
+</html>
