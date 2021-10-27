@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: frontend_js
+        labels:
+                app: webapp-js
+                tier: frontend
+spec:
+        replicas: 1
+        selector:
+                matchLabels:
+                        app: webapp-js
+                        tier: frontend
+        template:
+                metadata:
+                        labels:
+                                app: webapp-js
+                                tier: frontend
+                spec:
+                        containers: 
+                        - name: frontendjs
+                          image: iad.ocir.io/idbmr8mmrb5k/frontend:image_build_number
+                          ports:
+                           - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata: 
+        name: webapp-js
+spec:
+        selector:
+                app: webapp-js
+                tier: frontend
+        ports:
+        - port: 80
+          nodePort: 30081
+          name: frontendport
+        type: NodePort
