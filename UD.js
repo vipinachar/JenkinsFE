@@ -38,7 +38,7 @@ function ClearData()
 		var json_data = JSON.stringify(python_data)
 		//alert(json_data)
 		var xhr = new XMLHttpRequest();
-		xhr.open("DELETE", "http://150.136.209.237:8000/update/");
+		xhr.open("DELETE", "http://193.122.153.115:30080/update/");
 		//xhr.open("POST","https://ff3d-43-247-157-2.ngrok.io/api/v1/users/")
 
 		xhr.setRequestHeader("Accept", "application/json");
