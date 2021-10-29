@@ -25,14 +25,14 @@ spec:
 ---
 apiVersion: v1
 kind: Service
-metadata:
- name: webapp-js
+metadata: 
+        name: webapp-js
 spec:
- clusterIP: None
- selector:
-   app: webapp-js
-   env: prod
- ports:
- - protocol: TCP
-   port: 80
-   targetPort: 80
+        selector:
+                app: webapp-js
+                tier: frontend
+        ports:
+        - port: 80
+          nodePort: 30081
+          name: frontendport
+        type: NodePort
