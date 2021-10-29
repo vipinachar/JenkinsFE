@@ -28,10 +28,10 @@ kind: Service
 metadata:
  name: webapp-js
 spec:
- type: LoadBalancer
+ clusterIP: None
  selector:
-  app: webapp-js
-  tier: frontend
+   app: webapp-js
+   env: prod
  ports:
  - protocol: TCP
    port: 80
