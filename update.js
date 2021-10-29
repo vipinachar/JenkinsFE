@@ -19,7 +19,7 @@ function validate(){
 		//alert(json_data)
         
 		var xhr = new XMLHttpRequest();
-		xhr.open("PUT", "http://129.159.105.205:8000/update/");
+		xhr.open("PUT", "http://158.101.105.177:8000/update/");
 		// xhr.open("PUT","")
 
 		xhr.setRequestHeader("Accept", "application/json");
