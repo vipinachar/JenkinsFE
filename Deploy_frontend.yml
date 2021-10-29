@@ -26,13 +26,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-	name: webapp-js
+ name: webapp-js
 spec:
-	clusterIP: None
-	selector:
-		app: webapp-js
-		tier: frontend
-	ports:
-	  - protocol: TCP
-            port: 80
-	    targetPort: 80
+ type: LoadBalancer
+ selector:
+  app: webapp-js
+  tier: frontend
+ ports:
+ - protocol: TCP
+   port: 80
+   targetPort: 80
