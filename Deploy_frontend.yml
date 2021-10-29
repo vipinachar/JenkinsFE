@@ -33,6 +33,6 @@ spec:
                 tier: frontend
         ports:
         - port: 80
-          nodePort: 80
+          nodePort: 30081
           name: frontendport
         type: NodePort
