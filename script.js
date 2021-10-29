@@ -18,7 +18,7 @@ function validate() {
 
 		var json_data = JSON.stringify(python_data)
 		var xhr = new XMLHttpRequest();
-		xhr.open("POST", "http://132.145.142.118:30080/register/");
+		xhr.open("POST", "http://150.136.71.243:30080/register/");
 		xhr.setRequestHeader("Accept", "application/json");
 		xhr.setRequestHeader("Content-Type", "application/json");
 		xhr.send(json_data);
