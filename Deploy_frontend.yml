@@ -6,7 +6,7 @@ metadata:
                 app: webapp-js
                 tier: frontend
 spec:
-        replicas: 10
+        replicas: 3
         selector:
                 matchLabels:
                         app: webapp-js
