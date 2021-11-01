@@ -3,11 +3,9 @@ pipeline
     agent any
     environment 
     {
-        REPO_NAME="frontend"
-        OCIR="iad.ocir.io"
-        NAMESPACE="idbmr8mmrb5k"
+        IMAGE_NAME="frontend"
         INSTANCE="129.213.88.192"
-        USERNAME="vipinachar2016@gmail.com"
+        DOCKER_USERNAME="vipinachar1998"
         GIT_USERNAME="vipinachar"
         GIT_APITOKEN="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"
     }
@@ -24,24 +22,24 @@ pipeline
         {
             steps
             {
-                sh 'docker build -t ${OCIR}/${NAMESPACE}/${REPO_NAME}:${BUILD_NUMBER} .'
+                sh 'docker build -t ${DOCKER_USERNAME}/${IMAGE_NAME}:${BUILD_NUMBER} .'
             }
         }
         stage("Docker Login")
         {
             steps
             {
-                withCredentials([string(credentialsId: 'OCI_Password', variable: 'oci_password')])
+                withCredentials([string(credentialsId: 'docker_hub_password', variable: 'docker_hub_password')])
                 {
-                    sh 'docker login ${OCIR} -u ${NAMESPACE}/${USERNAME} -p ${oci_password}'   
+                    sh 'docker login -u ${DOCKER_USERNAME} -p ${docker_hub_password}'   
                 }
             }
         }
-        stage("Push the Image to OCIR")
+        stage("Push the Image to DockerHub")
         {
             steps
             {
-                sh 'docker push ${OCIR}/${NAMESPACE}/${REPO_NAME}:${BUILD_NUMBER}'
+                sh 'docker push ${DOCKER_USERNAME}/${IMAGE_NAME}:${BUILD_NUMBER}'
             }
         }
         stage("SSH to machine and Docker Run")
