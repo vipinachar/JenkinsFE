@@ -19,7 +19,7 @@ spec:
                 spec:
                         containers: 
                         - name: frontendjs
-                          image: iad.ocir.io/idbmr8mmrb5k/frontend:image_build_number
+                          image: vipinachar1998/frontend:image_build_number
                           ports:
                            - containerPort: 80
 ---
