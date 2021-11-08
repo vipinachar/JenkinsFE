@@ -15,7 +15,7 @@ pipeline
         {
             steps
             {
-                git "https://${GIT_USERNAME}:${GIT_APITOKEN}@github.com/vipinachar/JenkinsFE.git"
+                git "https://github.com/vipinachar/JenkinsFE.git"
             }
         }
         stage("Build Docker Image")
