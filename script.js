@@ -35,7 +35,7 @@ function validate() {
 			}
 			else
 			{
-				// alert(this.responseText)
+			 alert(this.responseText)
 			}
 			}
 
