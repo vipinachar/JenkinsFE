@@ -19,7 +19,7 @@ function validate(){
 		//alert(json_data)
         
 		var xhr = new XMLHttpRequest();
-		xhr.open("PUT", "http://150.136.71.243:30080/`update/");
+		xhr.open("PUT", "http://129.213.63.76:30080/`update/");
 		// xhr.open("PUT","")
 
 		xhr.setRequestHeader("Accept", "application/json");
